@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+img {
+  border-radius: 100%;
+}
+.card-container {
+  height: 30%;
+  width: 20%;
+  background-color: #c5c1c1;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 5px 3px 5px grey;
+  border-radius: 10%;
+  border: 2px solid #722f99;
+}
+
+h2 {
+  color: #65098a51;
+  text-decoration: underline;
+}
+
+.hero-container {
+  width: 100vw;
+  height: 60vh;
+  background-image: url("../Images/VALORANT_JETT_Duotoned.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}

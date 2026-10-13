@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Sample</title>
+    <style>
+      /* Element Selector */
+      img {
+        border-radius: 100%;
+      }
+      /* Id Selector */
+      #title-card {
+        font-size: 2em;
+        color: red;
+        text-shadow: -6px 5px 4px rgb(15, 15, 15);
+        letter-spacing: 0.3em;
+      }
+      /* Class Selector */
+      .card-container {
+        background-color: rgb(149, 124, 124);
+        border: 3px solid black;
+        margin-bottom: 10px;
+        height: 400px;
+        width: 400px;
+        padding: 10px;
+        text-align: center;
+      }
+      /* Universal Selector */
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      /* Grouping Selector */
+      h2,
+      p {
+        font-family: Impact;
+      }
+   
+    </style>
+  </head>
+  <body>
+    <!-- First Div -->
+    <div class="card-container">
+      <img
+        class="card-image"
+        src="../Images/slime.webp"
+        alt="slime"
+        width="100"
+        height="100"
+      />
+      <h1>Sample HERE</h1>
+      <h3>ANother one</h3>
+      <h2 id="title-card">Title: Slime</h2>
+      <p class="card-desc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+        ratione? Odio molestiae cumque voluptatum quis. Cupiditate molestias
+        pariatur ipsam unde voluptas dignissimos accusantium sequi! Beatae
+        doloremque neque odit porro molestias?
+      </p>
+    </div>
+    <!-- Second Div -->
+    <div class="card-container">
+      <img
+        class="card-image"
+        src="../Images/slime.webp"
+        alt="slime"
+        width="100"
+        height="100"
+      />
+      <h2>Title: Slime</h2>
+      <p class="card-desc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+        ratione? Odio molestiae cumque voluptatum quis. Cupiditate molestias
+        pariatur ipsam unde voluptas dignissimos accusantium sequi! Beatae
+        doloremque neque odit porro molestias?
+      </p>
+    </div>
+  </body>
+</html>

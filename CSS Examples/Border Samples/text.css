@@ -1,0 +1,76 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif; /* Default font family */
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Text example section styles */
+.text-example {
+    margin-bottom: 40px;
+}
+
+/* Text Color */
+.color-example {
+    color: #007BFF; /* Blue color */
+}
+
+/* Text Alignment */
+.align-left {
+    text-align: left; /* Left alignment */
+}
+
+.align-center {
+    text-align: center; /* Center alignment */
+}
+
+.align-right {
+    text-align: right; /* Right alignment */
+}
+
+/* Text Decoration */
+.underline {
+    text-decoration: underline; /* Underline decoration */
+}
+
+.line-through {
+    text-decoration: line-through; /* Line-through decoration */
+}
+
+/* Font Size and Weight */
+.font-small {
+    font-size: 12px; /* Small font size */
+}
+
+.font-large {
+    font-size: 24px; /* Large font size */
+}
+
+.font-bold {
+    font-weight: bold; /* Bold weight */
+}
+
+/* Text Transformation */
+.uppercase {
+    text-transform: uppercase; /* Uppercase transformation */
+}
+
+.capitalize {
+    text-transform: capitalize; /* Capitalize first letter of each word */
+}
+
+/* Letter Spacing and Line Height */
+.letter-spacing {
+    letter-spacing: 2px; /* Increased letter spacing */
+}
+
+.line-height {
+    line-height: 1.5; /* Increased line height for readability */
+}

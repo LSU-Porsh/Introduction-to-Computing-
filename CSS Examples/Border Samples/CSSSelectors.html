@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Activity</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Element Selector */
+            h1 {
+                color: blue;
+                text-align: center;
+            }
+
+            /* Class Selector */
+            .description {
+                font-size: 18px;
+                color: gray;
+            }
+
+            /* ID Selector */
+            #examples {
+                background-color: #f0f0f0;
+                padding: 10px;
+            }
+
+            /* Attribute Selector */
+            .selector-list .item {
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+
+            /* Pseudo-Class Selector */
+            .item:hover {
+                color: red;
+            }    
+    </style>
+
+
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to My CSS Selectors Activity</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>About CSS Selectors</h2>
+            <p class="description">CSS selectors are used to select the HTML elements you want to style.</p>
+        </section>
+
+        <section id="examples">
+            <h2>Examples of Selectors</h2>
+            <ul class="selector-list">
+                <li class="item">Element Selector</li>
+                <li class="item">Class Selector</li>
+                <li class="item">ID Selector</li>
+                <li class="item">Attribute Selector</li>
+                <li class="item">Pseudo-Class Selector</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>Created by [Your Name]</p>
+        </footer>
+    </main>
+</body>
+</html>

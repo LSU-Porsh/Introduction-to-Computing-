@@ -1,0 +1,65 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif; /* Default font family */
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display items inline */
+    margin-right: 15px; /* Space between links */
+}
+
+/* Flexbox Layout */
+.flex-container {
+    display: flex; /* Enable flexbox layout */
+    justify-content: space-around; /* Space items evenly */
+    margin-bottom: 40px; /* Space below the flex container */
+}
+
+.flex-item {
+    background-color: #007BFF; /* Background color for items */
+    color: white; /* Text color */
+    padding: 20px; /* Padding inside items */
+    width: 30%; /* Fixed width for flex items */
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid; /* Enable grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 10px; /* Space between grid items */
+    margin-bottom: 40px; /* Space below the grid container */
+}
+
+.grid-item {
+    background-color: #28a745; /* Background color for grid items */
+    color: white; /* Text color */
+    padding: 20px; /* Padding inside items */
+}
+
+/* Float Layout */
+.float-container {
+    overflow: auto; /* Clear floats within the container */
+}
+
+.float-item {
+    float: left; /* Float items to the left */
+    width: 20%; /* Fixed width for float items */
+    background-color: #dc3545; /* Background color for float items */
+    color: white; /* Text color */
+    padding: 20px; /* Padding inside items */
+}

@@ -1,0 +1,108 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("Images/Locations/Palawan.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.header h3 {
+  font-family: "Lucida Sans";
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 2px 3px 3px grey;
+  margin: 0px;
+}
+
+.header h2 {
+  font-family: "Arial";
+  font-size: 2.2rem;
+  text-align: center;
+  text-shadow: 2px 3px 3px grey;
+}
+
+.header h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.8rem;
+  text-align: center;
+  text-shadow: 2px 3px 3px grey;
+}
+
+.aboutUs-content-container {
+  background-color: #fabd02;
+  height: 100vh;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-aboutUs {
+  width: 80%;
+  border: 2px solid blue;
+}
+.content-header {
+  display: inline-block;
+}
+.content-header h4 {
+  margin: 0px;
+  padding-right: 4px;
+  font-size: 2.1rem;
+  float: left;
+}
+.content-header p {
+  width: auto;
+  float: left;
+}
+.middlep {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.content-body {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.content-body-item {
+  /* border: 2px solid red; */
+  max-width: 40%;
+}
+
+.ourTeam-content {
+  background-color: hsl(240, 17%, 12%);
+  height: 300px;
+}
+
+.portfolio-content {
+  background-color: hsl(336, 97%, 41%);
+  height: 300px;
+}
+
+.service-content {
+  background-color: hsl(217, 95%, 29%);
+  height: 300px;
+}

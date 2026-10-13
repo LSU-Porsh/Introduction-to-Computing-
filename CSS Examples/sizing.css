@@ -1,0 +1,49 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif; /* Default font family */
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Box styles */
+.box {
+    border: 2px solid #007BFF; /* Border color */
+    padding: 20px; /* Padding inside the box */
+    margin-bottom: 20px; /* Space below each box */
+    text-align: center; /* Center text inside boxes */
+}
+
+/* Fixed Size Box */
+.fixed {
+    width: 300px; /* Fixed width */
+    height: 150px; /* Fixed height */
+}
+
+/* Percentage Size Box */
+.percentage {
+    width: 50%; /* Width is 50% of parent container */
+    height: 100px; /* Fixed height */
+}
+
+/* Min and Max Size Boxes */
+.min-max {
+    min-width: 200px; /* Minimum width */
+    max-width: 400px; /* Maximum width */
+    height: 100px; /* Fixed height */
+}
+
+/* Box Sizing Example */
+.box-sizing {
+    width: 300px; /* Fixed width */
+    height: 100px; /* Fixed height */
+    padding: 20px; /* Padding inside the box */
+    border: 5px solid #28a745; /* Border color */
+    box-sizing: border-box; /* Include padding and border in total size */
+}

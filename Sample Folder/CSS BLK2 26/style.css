@@ -1,0 +1,41 @@
+/* Universal Selector */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* Element Selector */
+div {
+  background-color: green;
+  height: 300px;
+  width: 400px;
+  border: 5px solid #ffd166;
+  color: rgb(202, 220, 220);
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 3px 2px 5px rgb(39, 37, 37);
+}
+/* ID Selector */
+#primary-card {
+  color: rgb(15, 23, 170);
+}
+/* Class Selector */
+/* for group styling of elements */
+.card-image {
+  border-radius: 50%;
+}
+/* Grouping Selector */
+h1,
+.card-desc {
+  font-family: Impact;
+}
+h1 {
+  text-shadow: 5px -5px 20px rgb(255, 255, 255);
+}
+#sample-background {
+  background-image: url("../Images/slime.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 30%;
+}

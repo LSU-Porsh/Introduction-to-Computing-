@@ -1,0 +1,75 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif; /* Default font family */
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Font example section styles */
+.font-example {
+    margin-bottom: 40px;
+}
+
+/* Font Family Styles */
+.font-family {
+    font-family: 'Times New Roman', Times, serif; /* Serif font */
+}
+
+.font-family-serif {
+    font-family: 'Georgia', serif; /* Another serif font */
+}
+
+.font-family-sans-serif {
+    font-family: 'Arial', sans-serif; /* Sans-serif font */
+}
+
+/* Font Size Styles */
+.font-size-small {
+    font-size: 12px; /* Small font size */
+}
+
+.font-size-medium {
+    font-size: 16px; /* Medium font size */
+}
+
+.font-size-large {
+    font-size: 24px; /* Large font size */
+}
+
+/* Font Weight Styles */
+.font-weight-normal {
+    font-weight: normal; /* Normal weight */
+}
+
+.font-weight-bold {
+    font-weight: bold; /* Bold weight */
+}
+
+.font-weight-bolder {
+    font-weight: bolder; /* Bolder weight */
+}
+
+/* Font Style Styles */
+.font-style-normal {
+    font-style: normal; /* Normal style */
+}
+
+.font-style-italic {
+    font-style: italic; /* Italic style */
+}
+
+/* Text Decoration Styles */
+.text-decoration-underline {
+    text-decoration: underline; /* Underlined text */
+}
+
+.text-decoration-line-through {
+    text-decoration: line-through; /* Strikethrough text */
+}

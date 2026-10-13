@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Brew &amp; Bean (Organized)</title>
+    <style>
+      :root {
+        --bg: #fff8ee;
+        --fg: #2b1d12;
+        --card: #ffe3b8;
+        --accent: #b5541c;
+        --line: #7a4a2a;
+        box-sizing: border-box;
+        padding-top: env(safe-area-inset-top, 0px);
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root:not([data-theme="light"]) {
+          --bg: #1d140d;
+          --fg: #f4e6d4;
+          --card: #3a2616;
+          --accent: #f0955a;
+          --line: #b98a63;
+        }
+      }
+      :root[data-theme="dark"] {
+        --bg: #1d140d;
+        --fg: #f4e6d4;
+        --card: #3a2616;
+        --accent: #f0955a;
+        --line: #b98a63;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background: var(--bg);
+        color: var(--fg);
+        font-family: Georgia, serif;
+        margin: 0;
+      }
+      .page {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 16px;
+        display: grid;
+        gap: 24px;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: "header header" "hero hero" "menu side" "footer footer";
+      }
+      header {
+        grid-area: header;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        border-bottom: 2px solid var(--line);
+        padding-bottom: 12px;
+      }
+      h1 {
+        color: var(--accent);
+        margin: 0;
+        font-size: 2rem;
+      }
+      nav {
+        display: flex;
+        gap: 16px;
+      }
+      a {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .hero {
+        grid-area: hero;
+        text-align: center;
+        padding: 32px 16px;
+        background: var(--card);
+        border-radius: 12px;
+      }
+      .hero h2 {
+        margin: 0 0 8px;
+      }
+      .menu {
+        grid-area: menu;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 16px;
+        align-content: start;
+      }
+      .card {
+        background: var(--card);
+        border: 2px solid var(--line);
+        border-radius: 12px;
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      .card .pic {
+        aspect-ratio: 1;
+        background: var(--accent);
+        border-radius: 8px;
+      }
+      .card h3,
+      .card p {
+        margin: 0;
+      }
+      aside {
+        grid-area: side;
+        border: 2px solid var(--line);
+        border-radius: 12px;
+        padding: 16px;
+        align-self: start;
+      }
+      aside h2 {
+        margin-top: 0;
+      }
+      footer {
+        grid-area: footer;
+        text-align: center;
+        font-size: 0.85rem;
+        border-top: 1px dashed var(--line);
+        padding-top: 12px;
+      }
+      @media (max-width: 640px) {
+        .page {
+          grid-template-columns: 1fr;
+          grid-template-areas: "header" "hero" "menu" "side" "footer";
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <h1>Brew &amp; Bean</h1>
+        <nav>
+          <a href="#">Home</a><a href="#">Menu</a><a href="#">About</a
+          ><a href="#">Contact</a>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <h2>Fresh coffee, every morning</h2>
+        <p>
+          Welcome to our little cafe. We roast our beans in-house and bake
+          pastries daily.
+        </p>
+      </section>
+
+      <section class="menu">
+        <article class="card">
+          <div class="pic"></div>
+          <h3>Espresso</h3>
+          <p>Rich and bold.</p>
+        </article>
+        <article class="card">
+          <div class="pic"></div>
+          <h3>Cold Brew</h3>
+          <p>Steeped for 18 hours.</p>
+        </article>
+        <article class="card">
+          <div class="pic"></div>
+          <h3>Croissant</h3>
+          <p>Buttery and flaky.</p>
+        </article>
+      </section>
+
+      <aside>
+        <h2>Opening hours</h2>
+        <p>Mon–Fri: 7am – 6pm<br />Sat–Sun: 8am – 4pm</p>
+        <h2>Visit us</h2>
+        <p>12 Roastery Lane, Coffee Town</p>
+      </aside>
+
+      <footer>© 2026 Brew &amp; Bean. Built with CSS Grid and Flexbox.</footer>
+    </div>
+  </body>
+</html>

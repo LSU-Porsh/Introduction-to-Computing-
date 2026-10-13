@@ -1,0 +1,37 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Box styles */
+.box {
+    background-color: #fff;
+    margin: 20px; /* Outer space around each box */
+    padding: 20px; /* Inner space inside each box */
+    border: 5px solid #007BFF; /* Border around each box */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+/* Specific styles for each box */
+#box1 {
+    width: 300px; /* Width of the content area */
+}
+
+#box2 {
+    width: 300px;
+    padding: 40px; /* Increased padding for demonstration */
+}
+
+#box3 {
+    width: 300px;
+    border-width: 10px; /* Thicker border */
+    border-style: dashed; /* Dashed border style */
+}
+
+#box4 {
+    width: 300px;
+    margin-top: 40px; /* Additional margin to separate from above */
+}
